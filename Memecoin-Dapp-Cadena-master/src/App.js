@@ -159,7 +159,7 @@ function App() {
         {error && <p className="text-2xl text-red-700">{error}</p>}
         <div className="mt-5">
           <span className="mr-5"><strong>코인:</strong> {tokenName} </span>
-          <span className="mr-5"><strong>:</strong>  {tokenSymbol} </span>
+          <span className="mr-5"><strong>티커:</strong>  {tokenSymbol} </span>
           <span className="mr-5"><strong>총 수량:</strong>  {tokenTotalSupply}</span>
         </div>
         <div className="mt-7 mb-9">
