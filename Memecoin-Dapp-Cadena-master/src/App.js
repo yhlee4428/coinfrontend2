@@ -232,7 +232,7 @@ function App() {
         <div className="mt-5">
           {isWalletConnected && <p><span className="font-bold">Your Wallet Address: </span>{yourWalletAddress}</p>}
           <button className="btn-connect" onClick={checkIfWalletIsConnected}>
-            {isWalletConnected ? "지갑 연결됨 🔒" : "지갑 연결하기 🔑"}
+            {isWalletConnected ? "지갑 연결됨 🔒" : "지갑 연결 🔑"}
           </button>
         </div>
 
