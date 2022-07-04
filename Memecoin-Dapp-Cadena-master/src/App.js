@@ -47,7 +47,7 @@ function App() {
         let tokenSupply = await tokenContract.totalSupply();
         tokenSupply = utils.formatEther(tokenSupply)
 
-        setTokenName(`${tokenName} ❤️`);
+        setTokenName(`${tokenName} TTU`);
         setTokenSymbol(tokenSymbol);
         setTokenTotalSupply(tokenSupply);
         setTokenOwnerAddress(tokenOwner);
@@ -152,7 +152,7 @@ function App() {
   return (
     <main className="main-container">
       <h2 className="headline">
-        <span className="headline-gradient">수정 코인 거래소</span>
+        <span className="headline-gradient">코인 거래소</span>
         <img className="inline p-3 ml-2" src="https://i.imgur.com/5JfHKHU.png" alt="Meme Coin" width="60" height="30" />
       </h2>
       <section className="customer-section px-10 pt-5 pb-10">
