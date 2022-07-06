@@ -4,7 +4,7 @@
 
 @layer components {
   .main-container {
-    @apply w-full max-w-3xl sm:mt-6 mx-auto overflow-hidden rounded-xl drop-shadow-2xl bg-teal-900 border-2 border-green-500 text-teal-100 text-lg 
+    @apply w-full max-w-3xl sm:mt-6 mx-auto overflow-hidden rounded-xl drop-shadow-2xl bg-teal-900 border-2 border--500 text-teal-100 text-lg 
   }
 
   .headline {
